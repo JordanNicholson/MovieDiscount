@@ -22,7 +22,7 @@ public class MovieDiscount {
         
         
         // Read in a true/false value
-        if (age < 13 || age > 65) {
+        if (age < 13 || age >= 65) {
         	if (hasCoupon) { 
         	//Prints total price if user has age and coupon discount
         		System.out.println("Your ticket costs $9.5.");
